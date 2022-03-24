@@ -52,13 +52,13 @@ p {
 	align-items: center;
 	margin: 5px;
 }
-h3 {
+h2 {
 	color: hsl(233, 47%, 23%);
 	font-weight: 900;
 	font-size: 16px;
 	text-shadow: 0.5px 0.5px;
 }
-h4 {
+h3 {
 	color: hsl(224, 23%, 55%);
 	margin: 5px;
 	padding: 0;
