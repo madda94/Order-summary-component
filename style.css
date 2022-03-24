@@ -1,0 +1,120 @@
+* {
+	font-size: 16px;
+	font-family: 'Red Hat Display';
+
+}
+body {
+	background-image: url("file:///C:/Users/hr65uo/OneDrive%20-%20ING/Desktop/webdev/order-summary-component-main/images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+	background-color: hsl(225, 100%, 94%);
+}
+#card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	height: 600px;
+	background-color: white;
+	margin: 4rem auto 2rem;
+	border-radius: 20px;
+	text-align: center;
+	border-shadow: 2px 2px gray;
+}
+#hero {
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+	margin-bottom: 20px;
+
+}
+h1 {
+	font-size: 1.4rem;
+	font-weight: 900;
+	margin-bottom: 0;
+	padding-bottom: 0px;
+	color: hsl(223, 47%, 23%);
+	text-shadow: 0.5px 0.5px;
+}
+p {
+	width: 75%;
+	color: hsl(224, 23%, 55%);
+}
+#plan {
+	background-color: hsl(225, 100%, 98%);
+	display: flex;
+	width: 300px;
+	border-radius: 10px;
+	height: 60px;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px 5px;
+	align-items: center;
+	margin: 5px;
+}
+h3 {
+	color: hsl(233, 47%, 23%);
+	font-weight: 900;
+	font-size: 16px;
+	text-shadow: 0.5px 0.5px;
+}
+h4 {
+	color: hsl(224, 23%, 55%);
+	margin: 5px;
+	padding: 0;
+	font-size: 14px;
+}
+#music {
+	height: 80%;
+	margin-right: -10px;
+	padding: 0;
+}
+#price {
+	display: flex;
+	flex-direction: column;
+	line-height: 0.1;
+	align-items: flex-start;
+}
+button {
+	width: 300px;
+	height: 2.5rem;
+	border-radius: 10px;
+	color: white;
+	background-color: hsl(245, 75%, 52%);
+	border: none;
+	margin-top: 20px;
+	font-size: 14px;
+	text-shadow: 0.5px 0.5px;
+	box-shadow: 0px 15px 10px hsl(225, 100%, 94%);
+}
+#cancel {
+	margin-top: 25px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: hsl(224, 23%, 55%);	
+}
+#change {
+	font-size: 14px;
+	font-weight: 600;
+}
+#change:hover {
+	text-decoration: none;
+	color: #B266FF;
+}
+button:hover {
+	background-color: #B266FF;
+}
+#cancel:hover {
+	color: #B266FF;
+}
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+	text-decoration: none;
+	font-size: 11px; 	
+}
